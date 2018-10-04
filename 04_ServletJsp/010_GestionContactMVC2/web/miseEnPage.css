@@ -1,0 +1,144 @@
+/* ========================================================================== */
+/* Selecteurs de style generaux pour toute l'application                      */
+/* ========================================================================== */
+body
+{
+   background : #77FFFF;
+   color : blue;
+   font-family : 'calibri';
+}
+
+/* -------------------------------------------------------------------------- */
+/* Formulaire                                                                 */
+/* -------------------------------------------------------------------------- */
+fieldset
+{
+   background : #DDFFFF;
+   margin : 2em;
+   padding : 1em;
+}
+
+legend
+{
+    font-size : 1.5em;
+}
+
+input
+{
+   font-family : inherit;                   /* ou idem <body> (IE avant 8.07) */
+}
+
+select
+{
+   font-family : inherit;
+}
+
+input.invalide
+{
+   background : #FF0000;
+   color : white;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Table                                                                      */
+/* -------------------------------------------------------------------------- */
+table
+{
+   width : 80%;
+   margin-left : 10%;
+   margin-bottom : 2em;      
+   border-width : 1px;                                       /* Les 2 options */
+   border-style : solid;                                     /* ou aucune     */
+   border-color : blue;
+}
+
+caption
+{
+    font-size : 1.5em;
+    color : white;
+    background : blue;
+    margin-top : 2em;
+}
+
+thead
+{
+    color : white;
+    background : blue;
+}
+
+tbody
+{
+   background : #DDFFFF;
+}
+
+.petitTitreColonne
+{
+   font-size : 0.7em;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Message                                                                    */
+/* -------------------------------------------------------------------------- */
+#message
+{
+   height : 1em;
+   margin : 2em;
+   padding : 0.5em;
+   background : #DDFFFF;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Bouton Envoyer (envoi d'un formulaire)                                     */
+/* -------------------------------------------------------------------------- */
+.envoyer
+{
+   font-size : 1em;
+   margin-right : 1em;
+}
+
+/* ========================================================================== */
+/* Selecteurs de style pour la mise en page specifique de l'application       */
+/* ========================================================================== */
+
+/* -------------------------------------------------------------------------- */
+/* Ecran d'accueil                                                            */
+/* -------------------------------------------------------------------------- */
+.divSaisieAccueil
+{
+   width : 50em;
+}
+
+.divTexte
+{
+   float : left;
+   width : 20em;
+}
+
+.divTexte label
+{
+   margin-right : 0.5em;
+}
+
+.divRadio
+{
+   float : left;
+   width : 30em;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Ecran de modification                                                      */
+/* -------------------------------------------------------------------------- */
+.divSaisieModif
+{
+   width : 50em;
+   margin : 1em;
+}
+
+.divSaisieModif label
+{
+   display : block;
+   text-align : right;
+   margin-right : 0.5em;
+   width : 10em;
+   float : left;
+}
